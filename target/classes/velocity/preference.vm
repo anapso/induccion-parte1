@@ -15,10 +15,12 @@
 
 <div class="row row-3">
     <p class="title">Exercise Induction - Parte 1</p>
+    <!-- mp-mode redirect-->
     <!-- <a href=${initPoint} name="MP-Checkout" className="green-L-Rn" mp-mode="modal">Pagar</a> -->
 </div>
-
+<!-- mp-mode -->
 <script
+       
         src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
         data-preference-id="${id}">
 </script>
